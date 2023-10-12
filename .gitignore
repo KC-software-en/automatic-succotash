@@ -3,7 +3,6 @@
 Virtual_env/
 
 # exclude unnecessary uploads to github
-screenshots/
 cmd_pip_req_without_venv.txt
 docker
 docker1.txt
