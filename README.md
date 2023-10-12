@@ -92,7 +92,7 @@ In summary, this project uses object-oriented programming to enhance the efficie
 ## Use the Command Prompt
 1. Check that Docker desktop was successfully installed: `docker run hello-world`
 1. Build the docker image: `docker build -t inventory .` 
-1. Run the docker image: `docker run inventory`
+1. Run the docker image: `docker run -it inventory`
 1. Deactivate the Virtual Environment: `deactivate`
 
 ## Use Docker Playground
@@ -101,7 +101,7 @@ In summary, this project uses object-oriented programming to enhance the efficie
 
 In the terminal: 
 1. Copy command from Docker Hub @ https://hub.docker.com/repository/docker/kcse1/inventory/tags?page=1&ordering=last_updated: `docker pull kcse1/inventory:shoe`
-1. Run the docker image: `docker run kcse1/inventory:shoe`
+1. Run the docker image: `docker run -it kcse1/inventory:shoe`
 1. Close session on Docker Playground
 
 ## Use Python IDLE
