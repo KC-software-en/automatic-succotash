@@ -91,7 +91,7 @@ In summary, this project uses object-oriented programming to enhance the efficie
 
 ## Use the Command Prompt
 1. Check that Docker desktop was successfully installed: `docker run hello-world`
-1. Build the docker image: `docker build -t inventory .` 
+1. Build the docker image: `docker build -t inventory ./` 
 1. Run the docker image: `docker run -it inventory`
 1. Deactivate the Virtual Environment: `deactivate`
 
